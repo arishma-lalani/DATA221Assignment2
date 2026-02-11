@@ -3,7 +3,7 @@ Questions Overview
 
 - **Question 1** – Read `sample-file.txt`, clean the text (lowercase, remove punctuation, keep tokens with ≥2 letters), and print the 10 most frequent words.  
 
-- **Question 2** – From `sample-file.txt`, clean the text, generate bigrams (pairs of consecutive words), and print the 5 most frequent bigrams.  
+- **Question 2** – From `sample-file.txt`, clean the text, generate bigrams, and print the 5 most frequent bigrams.  
 
 - **Question 3** – Identify near-duplicate lines in `sample-file.txt` after normalizing text (lowercase, remove spaces and punctuation). Print the number of near-duplicate sets and the first two sets with line numbers.  
 
@@ -20,5 +20,3 @@ Questions Overview
 - **Question 9** – Scrape the Machine Learning Wikipedia page. Extract the first table with ≥3 data rows. Normalize rows with missing columns and save as `wiki_table.csv`.  
 
 - **Question 10** – Write a reusable function `find_lines_containing(filename, keyword)` that returns lines containing the keyword (case-insensitive) with line numbers. Test using `sample-file.txt` and print the number of matches and the first 3 lines.  
-tail -n 20 README.md
-
