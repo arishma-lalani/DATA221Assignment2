@@ -1,4 +1,7 @@
-# DATA221Assignment2This repository contains the solutions for **DATA221 Assignment 2** (Questions 1–10).  
+# DATA221Assignment2
+
+This repository contains the solutions for **DATA221 Assignment 2** (Questions 1–10).  
+
 Questions Overview
 
 - **Question 1** – Read `sample-file.txt`, clean the text (lowercase, remove punctuation, keep tokens with ≥2 letters), and print the 10 most frequent words.  
